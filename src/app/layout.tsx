@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar/navbar";
+import Footer from "@/components/footer/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,6 +37,7 @@ export default function RootLayout({
 				<main className="w-full flex flex-col min-h-screen max-w-screen-2xl mx-auto pt-[72px]">
 					{children}
 				</main>
+				<Footer />
 			</body>
 		</html>
 	);
