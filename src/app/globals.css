@@ -27,4 +27,7 @@ body {
 	.active {
 		@apply text-orange-400 rounded-sm;
 	}
+	.icon-footer {
+		@apply hover:text-orange-400 hover:bg-slate-800 hover:rounded-full p-2 bg-slate-900 rounded-full;
+	}
 }
