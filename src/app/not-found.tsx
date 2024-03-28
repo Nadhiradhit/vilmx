@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default async function NotFound() {
 	return (
-		<main className="flex items-center justify-center h-screen gap-4">
+		<main className="flex items-center justify-center w-full h-screen gap-4">
 			<div className="flex flex-col items-center">
 				<h1 className="text-4xl lg:text-7xl font-bold text-slate-400 animate-bounce">
 					404 Not Found
