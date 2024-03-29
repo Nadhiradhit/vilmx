@@ -34,7 +34,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={`${inter.className} ${plusJakarta.variable}`}>
 				<Navbar />
-				<main className="w-full flex flex-col min-h-screen max-w-screen-2xl mx-auto pt-[72px]">
+				<main className="w-full relative flex flex-col min-h-screen max-w-screen-2xl mx-auto pt-[72px]">
 					{children}
 				</main>
 				<Footer />
