@@ -19,6 +19,7 @@ export default function NavbarLinks() {
 								: "hover:text-orange-400 transition ease-in-out delay-75"
 						}>
 						<ul>
+							{/* <li>{link.icon}</li> */}
 							<li>{link.name}</li>
 						</ul>
 					</Link>

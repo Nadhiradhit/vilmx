@@ -1,8 +1,10 @@
 import {
+	AiFillHome,
 	AiOutlineInstagram,
 	AiOutlineTwitter,
 	AiOutlineYoutube,
 } from "react-icons/ai";
+import { MdMovie } from "react-icons/md";
 
 export const links = [
 	{
