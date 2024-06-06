@@ -25,9 +25,17 @@ body {
 		text-wrap: balance;
 	}
 	.active {
-		@apply text-orange-400 rounded-sm;
+		@apply text-orange-400 rounded-md px-2;
 	}
 	.icon-footer {
 		@apply hover:text-orange-400 hover:bg-slate-800 hover:rounded-full p-2 bg-slate-900 rounded-full;
+	}
+	.navbar {
+		@apply fixed top-0 z-20 h-[72px] w-full;
+	}
+	.navbar-active {
+		@apply navbar bg-slate-900 backdrop-filter backdrop-blur-[5px] bg-opacity-45;
+
+		transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
 	}
 }

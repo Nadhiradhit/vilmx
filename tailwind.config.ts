@@ -10,6 +10,7 @@ const config: Config = {
 		extend: {
 			fontFamily: {
 				body: "var(--font-plus-jakarta-sans), sans-serif",
+				heading: "var(--font-poppins), sans-serif",
 			},
 			backgroundImage: {
 				"gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
